@@ -20,17 +20,19 @@ public class RomanToInteger
 	        romanMap.put('D', 500);
 	        romanMap.put('M', 1000);
 	        int ind=0;
-	        int len=s.length();
-	        for(int i=0;i<len;i++)
+	        for(int i=0;i<s.length();i++)
 	        {
 	        	int newInd=romanMap.get(s.charAt(i));
-	        	if((i+1)< len && romanMap.get(s.charAt(i+1))>newInd)
+	        	
+	        	if((i+1)< s.length() && romanMap.get(s.charAt(i+1))>newInd)
 	        	{
 	        		ind-=newInd;
 	        	}
 	        	else
 	        	{
 	        		ind+=newInd;
+	        		System.out.println(ind);
+	        		System.out.println(newInd);
 	        	}
 	        }
 	        return ind;
