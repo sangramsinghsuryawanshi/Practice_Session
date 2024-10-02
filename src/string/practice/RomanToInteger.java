@@ -39,7 +39,7 @@ public class RomanToInteger
 	 }
 	public static void main(String[] args) 
 	{
-		String romanNumeral = "IX";
+		String romanNumeral = "LVIII";
         int result = romanToInt(romanNumeral);
         System.out.println("Roman numeral: " + romanNumeral + ", Integer value: " + result); // Output: 9
     
