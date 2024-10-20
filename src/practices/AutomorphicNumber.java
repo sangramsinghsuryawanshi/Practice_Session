@@ -15,6 +15,7 @@ public class AutomorphicNumber
 			c++;
 		}
 		lastdigit=(double)(sq%(Math.pow(10, c)));
+		System.out.println(lastdigit);
 		if(lastdigit==n)
 		{
 			System.out.println("Automorphic number: ");
