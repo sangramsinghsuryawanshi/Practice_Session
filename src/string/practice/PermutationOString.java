@@ -18,7 +18,7 @@ public class PermutationOString
 	}
 	public static void main(String[] args) 
 	{
-		String str="java";
+		String str="ABC";
 		System.out.println("Given String Combination is: ");
 		isPermutation(str,"");
 	}
