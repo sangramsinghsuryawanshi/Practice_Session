@@ -25,7 +25,7 @@ public class BinarySearch
 	public static void main(String[] args) 
 	{
 		int a[]= {0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15};
-		int t=1;
+		int t=0;
 		isBS(a, t);
 	}
 }
